@@ -1,0 +1,180 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #3a9edd;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #a4d6ee;
+}
+
+.content {
+  padding: 20px;
+}
+.main-section {
+  padding: 50px 0;
+}
+
+.main-section .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-content h2 {
+  margin-bottom: 20px;
+}
+
+.section-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 10px;
+  }
+
+  .navbar .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar h1 {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .navbar ul {
+    margin-top: 10px;
+  }
+
+  .navbar ul li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .main-section .container {
+    flex-direction: column;
+  }
+
+  .section-content img {
+    margin-top: 20px;
+  }
+}
+#hire{
+  font-size: xxx-large;
+    /* margin-bottom: 12px; */
+    margin-top: 72px;
+    color: blue;
+}
+.logos{
+  margin-top: 70px;
+    padding: 25px;
+}
+.paragraph{
+  padding: 25px;
+    margin: 25px;
+    font-size: large;
+    font-family: sans-serif;
+}
+.enroll{
+  text-align: center;
+  color: blue;
+}
+#doors{
+  padding: 50px;
+    text-align: justify;
+    padding-right: 58px;
+}
+#agenda{
+  text-align: center;
+    font-family: sans-serif;
+    color: blue;
+    /* margin: 25px; */
+    padding: 25px;
+}
+#course{
+  text-align: center;
+    width: 67pc;
+    font-size: x-large;
+}
+.list{
+  padding: 23px;
+    margin: 4px;
+    font-family: sans-serif;
+}
+.tools{
+  text-align: center;
+    font-size: xxx-large;
+    color: #2f11c9;
+    padding-bottom: 25px;
+    margin: 25px;
+}
+#ready{
+  text-align: center;
+  padding: 0px;
+  width: 66pc;
+  font-size: x-large;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 14px;
+  margin-top: 25px;
+}
+#join{
+  margin-left: 400px;
+    padding: 25px;
+    width: 23pc ;
+    margin-top: 25px;
+}
+.jobs{
+  text-align: center;
+    font-size: xx-large;
+    font-family: serif;
+    padding: 25px;
+    margin-bottom: 15px;
+    color: deeppink;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-logo {
+  max-width: 100px;
+}
+
+.address, .copyright {
+  margin-top: 10px;
+}
